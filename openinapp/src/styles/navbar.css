@@ -1,0 +1,20 @@
+#nav-container{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#nav-right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+/* #user{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-size: cover;
+    border: 1px solid red;
+} */

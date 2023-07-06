@@ -2,6 +2,9 @@
 import { signIn,signOut,useSession } from 'next-auth/react';
 import { redirect } from "next/navigation";
 import { useEffect } from 'react';
+import Sidebar from '../components/Sidebar';
+import Navbar from '../components/Navbar';
+import "../../styles/dashboard.css";
 
 const Dashboard = () => {
     const session=useSession();
@@ -13,13 +16,17 @@ const Dashboard = () => {
     },[session.status])
 
     console.log(session)
-    if(session.status=="authenticated"){
-        return <button onClick={()=>signOut("google")} >Logout</button>
-    }
+    // if(session.status=="authenticated"){
+    //     return <button onClick={()=>signOut("google")} >Logout</button>
+    // }
   return (
-    <div>
-      <h1>apsdp</h1>
-      <button onClick={()=>signIn('google')}>Google Button</button>
+    <div id="container">
+      <div id="left">
+        <Sidebar/>
+      </div>
+      <div id="right">
+        <Navbar/>
+      </div>
     </div>
   );
 };
