@@ -17,7 +17,6 @@
   margin: 9px 0px 9px 0px;
   font-size: 16px;
   font-weight: 400;
-  /* font-family: Lato; */
 }
 #forget {
   color: #346bd4;
@@ -57,4 +56,24 @@
     display: flex;
     justify-content: space-between;
     margin: 20px 0px 20px 0px;
+}
+@media all and (max-width: 750px) { 
+  #form{
+    height: 280px;
+  }
+}
+@media all and (max-width: 450px) { 
+  #main-div{
+    width: 90%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+  #login-buttons{
+    flex-direction: column;
+  }
+  #login-buttons>button{
+    /* width: 100%; */
+    margin: auto;
+    margin-top: 2%;
+  }
 }

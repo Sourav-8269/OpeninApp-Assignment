@@ -19,3 +19,25 @@
     justify-content: center;
     align-items: center;
 }
+@media all and (max-width: 750px) { 
+    #container{
+        display: block;
+    }
+    #left{
+        height: 100vh;
+    }
+    #right{
+        height: 100vh;
+        /* padding-top: 3%;
+        padding-bottom: 1%; */
+    }
+}
+@media all and (max-width: 450px) {
+    #right{
+        height: 600px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        /* padding-top: 3%;
+        padding-bottom: 1%; */
+    }
+} 
