@@ -1,21 +1,28 @@
 "use client";
-import Image from 'next/image'
-import styles from './page.module.css'
-import { useSession } from 'next-auth/react';
+import Image from "next/image";
+// import styles from "./page.module.css";
+import { useSession } from "next-auth/react";
+import "../styles/home.css";
+import Form from "@/components/form/page";
 // import {signIn} from "next-auth/react"
 
 export default function Home() {
-  const session=useSession();
+  const session = useSession();
   // const { data: session } = useSession({
   //   required: false,
   //   onUnauthenticated() {
   //     redirect("/signin/callbackUrl=/dashboard");
   //   },
   // });
-  console.log(session)
+  console.log(session);
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div id="container">
+      <div id="left">
+        <h1>Board.</h1>
+      </div>
+      <div id="right">
+        <Form/>
+      </div>
     </div>
-  )
+  );
 }

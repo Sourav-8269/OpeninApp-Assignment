@@ -1,0 +1,60 @@
+#main-div {
+  width: 385px;
+  /* border: 1px solid red; */
+}
+#form {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 20px;
+}
+#input {
+  background-color: #f5f5f5;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 9px 0px 9px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  /* font-family: Lato; */
+}
+#forget {
+  color: #346bd4;
+  margin: 20px 0px 20px 0px;
+  cursor: pointer;
+}
+#form > button {
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  padding: 12px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+#no-account {
+  color: #858585;
+  text-align: center;
+  margin-top: 20px;
+}
+#google-login-button {
+    width: 180px;
+  color: #858585;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 8px 16px;
+  background-color: #ffffff;
+  /* border: 1px solid #dddddd; */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#login-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}

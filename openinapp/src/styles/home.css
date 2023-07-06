@@ -1,0 +1,21 @@
+#container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+#left{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 36px;
+}
+#right{
+    background-color: #F5F5F5;
+    display: flex;
+    flex: 1.5;
+    justify-content: center;
+    align-items: center;
+}
