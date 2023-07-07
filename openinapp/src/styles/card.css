@@ -1,0 +1,43 @@
+#card-div{
+    display: grid;
+  /* width: 90%;
+    margin: auto; */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 3%;
+    grid-row-gap:5%;
+    margin-top: 3%;
+}
+#first-box{
+    background-color: #ddefe0;
+    /* width: 200px; */
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+}
+#second-box{
+    background-color: #f4ecdd;
+    /* width: 200px; */
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+}
+#third-box{
+    background-color: #efdada;
+    /* width: 200px; */
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+}
+#fourth-box{
+    background-color: #dee0ef;
+    /* width: 200px; */
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+}
+#card-icon{
+    position: absolute;
+  top: 20px;
+  right: 15px;
+  cursor: pointer;
+}

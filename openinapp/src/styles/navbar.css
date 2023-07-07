@@ -1,15 +1,21 @@
 #nav-container{
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: space-between;
     margin-top: 20px;
 }
+#nav-left{
+    /* border: 1px solid red; */
+    flex: 7;
+}
 #nav-right{
-    width: 30%;
+    /* width: 30%; */
+    flex: 5;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 20px;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 /* #user{
     width: 2rem;
@@ -18,3 +24,14 @@
     background-size: cover;
     border: 1px solid red;
 } */
+#search{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+@media all and (max-width: 900px) {
+    #search{
+        display: none;
+    }
+}

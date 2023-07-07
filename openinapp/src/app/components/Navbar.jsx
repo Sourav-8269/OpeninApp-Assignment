@@ -6,12 +6,12 @@ import "./../../styles/navbar.css"
 
 const Navbar = () => {
   return (
-    <div id="nav-container" style={{border:"1px solid black"}}>
+    <div id="nav-container">
         <div id="nav-left">
             <h1>Dashboard</h1>
         </div>
         <div id="nav-right">
-            <input type="text" placeholder="Search" />
+            <input type="text" placeholder="Search" id="search" />
             <Image src={bell} width={18} height={20}/>
             <div id="user">
             <Image src={user} width={30} height={30}/>

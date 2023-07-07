@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import "../../styles/dashboard.css";
+import Card from '../components/Card';
 
 const Dashboard = () => {
     const session=useSession();
@@ -26,6 +27,7 @@ const Dashboard = () => {
       </div>
       <div id="right">
         <Navbar/>
+        <Card/>
       </div>
     </div>
   );
