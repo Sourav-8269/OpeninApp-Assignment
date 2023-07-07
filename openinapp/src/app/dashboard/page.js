@@ -6,6 +6,7 @@ import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import "../../styles/dashboard.css";
 import Card from '../components/Card';
+import BottomCards from '../components/BottomCards';
 
 const Dashboard = () => {
     const session=useSession();
@@ -28,6 +29,7 @@ const Dashboard = () => {
       <div id="right">
         <Navbar/>
         <Card/>
+        <BottomCards/>
       </div>
     </div>
   );
