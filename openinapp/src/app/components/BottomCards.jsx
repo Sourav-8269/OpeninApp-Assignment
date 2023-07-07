@@ -19,7 +19,7 @@ const BottomCards = () => {
                 </div>
             </div>
             <div id="topProductsData">
-                <div id="topProductsDataLeft">
+                <div id="   ">
                     <Image src={PieChart} width={134} height={134}/>
                 </div>
                 <div id="topProductsDataRight">
@@ -55,6 +55,18 @@ const BottomCards = () => {
                 <div id="bottomCardHeadingRight">
                     <p>See All</p>
                     <Image src={RightArrow} width={5} height={8}/>
+                </div>
+            </div>
+            <div id="schedule">
+                <div id="schedule1">
+                    <h4 id="scheduleHeading">Meeting with suppliers from Kuta Bali</h4>
+                    <p>14.00-15.00</p>
+                    <p>at Sunset Road, Kuta, Bali</p>
+                </div>
+                <div id="schedule2">
+                    <h4 id="scheduleHeading">Check operation at Giga Factory 1</h4>
+                    <p>18.00-20.00</p>
+                    <p>at Central Jakarta</p>
                 </div>
             </div>
         </div>
