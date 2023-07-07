@@ -1,0 +1,21 @@
+#mainGraphContainer{
+    padding:20px;
+    border-radius: 10px;
+    background-color: white;
+}
+#graphContainer{
+    max-width: 99%;
+    height: 300px;
+    margin: auto;
+    /* maxWidth: "90%",
+    // height:"200px",
+    border:"1px solid red",
+    margin:"auto" */
+    /* border: 1px solid black; */
+}
+@media all and (max-width: 450px) {
+    #mainGraphContainer{
+        /* width: 300px; */
+        margin-top: 100px;
+    }
+}

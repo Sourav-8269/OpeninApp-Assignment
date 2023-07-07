@@ -19,7 +19,7 @@ const BottomCards = () => {
                 </div>
             </div>
             <div id="topProductsData">
-                <div id="   ">
+                <div id="topProductsDataLeft">
                     <Image src={PieChart} width={134} height={134}/>
                 </div>
                 <div id="topProductsDataRight">

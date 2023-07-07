@@ -6,6 +6,8 @@
     grid-column-gap: 3%;
     grid-row-gap:5%;
     margin-top: 3%;
+    /* border: 1px solid red; */
+    margin-bottom: 5%;
 }
 #first-box{
     background-color: #ddefe0;
