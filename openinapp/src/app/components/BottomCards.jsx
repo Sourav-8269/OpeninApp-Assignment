@@ -15,12 +15,12 @@ const BottomCards = () => {
                 </div>
                 <div id="bottomCardHeadingRight">
                     <p>May - June 2021</p>
-                    <Image src={BottomArrow} width={8} height={5}/>
+                    <Image src={BottomArrow} width={8} height={5} alt='Date'/>
                 </div>
             </div>
             <div id="topProductsData">
                 <div id="topProductsDataLeft">
-                    <Image src={PieChart} width={134} height={134}/>
+                    <Image src={PieChart} width={134} height={134} alt='Pie'/>
                 </div>
                 <div id="topProductsDataRight">
                     <div id="product">
@@ -54,7 +54,7 @@ const BottomCards = () => {
                 </div>
                 <div id="bottomCardHeadingRight">
                     <p>See All</p>
-                    <Image src={RightArrow} width={5} height={8}/>
+                    <Image src={RightArrow} width={5} height={8} alt='Schedule'/>
                 </div>
             </div>
             <div id="schedule">

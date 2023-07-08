@@ -12,23 +12,23 @@ const Sidebar = () => {
         <h1 id="sidebar-heading">Board.</h1>
         <div id="menu">
             <div className="menu-item">
-                <Image src={dashboard} width={20} height={20} alt="Dashboard" srcset=""/>
+                <Image src={dashboard} width={20} height={20} alt="Dashboard"/>
                 <p>Dashboard</p>
             </div>
             <div className="menu-item">
-                <Image src={transactionIcon} width={20} height={23} alt="Dashboard" srcset=""/>
+                <Image src={transactionIcon} width={20} height={23} alt="transaction"/>
                 <p>Transactions</p>
             </div>
             <div className="menu-item">
-                <Image src={scheduleIcon} width={20} height={20} alt="Dashboard" srcset=""/>
+                <Image src={scheduleIcon} width={20} height={20} alt="Schedule"/>
                 <p>Schedules</p>
             </div>
             <div className="menu-item">
-                <Image src={userIcon} width={20} height={20} alt="Dashboard" srcset=""/>
+                <Image src={userIcon} width={20} height={20} alt="user"/>
                 <p>Users</p>
             </div>
             <div className="menu-item">
-                <Image src={settingsIcon} width={19} height={20} alt="Dashboard" srcset=""/>
+                <Image src={settingsIcon} width={19} height={20} alt="Settings"/>
                 <p>Settings</p>
             </div>
         </div>

@@ -36,7 +36,7 @@ export default function Home() {
             Scroll Down
           </button>
           <br/>
-          <Image src={BottomArrow} width={20} onClick={handleScrollDown}/>
+          <Image src={BottomArrow} width={20} onClick={handleScrollDown} alt='Scroll'/>
         </div>
       </div>
       <div id="right">

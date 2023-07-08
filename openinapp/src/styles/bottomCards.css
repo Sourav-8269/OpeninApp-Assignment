@@ -30,12 +30,15 @@
 }
 #bottomCardHeadingRight{
     /* width: 30%; */
-    flex: 5;
+    flex: 8;
     display: flex;
     justify-content: flex-end;
     gap: 8px;
     align-items: center;
     /* border: 1px solid red; */
+}
+#Schedule>#bottomCardHeading>#bottomCardHeadingLeft{
+    flex: 10;
 }
 #topProductsData{
     /* border: 1px solid red; */

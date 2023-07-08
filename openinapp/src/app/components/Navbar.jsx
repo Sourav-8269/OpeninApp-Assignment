@@ -11,7 +11,7 @@ const Navbar = () => {
   const [userImage,setUserImage]=useState("")
 
   const handleLogout=()=>{
-    alert("Bye, come back soon!");
+    alert("Bye come back soon!");
     signOut("google");
   }
 
@@ -19,8 +19,8 @@ const Navbar = () => {
     if(session.status=="authenticated"){
       setUserImage(session.data.user.image)
     }
-  },[])
-  
+  },[session.status])
+
   return (
     <div id="nav-container">
         <div id="nav-left">
@@ -28,10 +28,10 @@ const Navbar = () => {
         </div>
         <div id="nav-right">
             <input type="text" placeholder="Search" id="search" />
-            <Image src={bell} id="navIcon" width={18} height={20}/>
-            <Image src={logout} id="navIcon" width={22} height={22} onClick={()=>handleLogout()} />
+            <Image src={bell} id="navIcon" width={18} height={20} alt='Alert'/>
+            <Image src={logout} id="navIcon" width={22} height={22} alt='Logout' onClick={()=>handleLogout()} />
             <div id="user">
-            <Image src={userImage?userImage:user} width={30} height={30} id="userImage" />
+            <Image src={userImage?userImage:user} width={30} height={30} id="userImage" alt='user' />
             </div>
         </div>
     </div>

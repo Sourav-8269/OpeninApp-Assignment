@@ -1,6 +1,5 @@
-#container{
+#dashboardContainer{
     display: flex;
-    /* border: 1px solid red;    */
     padding: 1%;
     background-color: #f5f5f5;
     /* width: 100vw; */
@@ -8,25 +7,21 @@
     box-sizing: border-box;
     /* justify-content: space-around; */
 }
-#left{
-    /* width: */
+#dashboardLeft{
     width: 300px;
-    /* border: 1px solid red; */
 }
-#right{ 
-    /* border: 1px solid red; */
+#dashboardRight{ 
     margin-left: 20px;
-    /* width: ; */
     flex: 3;
 }
 @media all and (max-width: 850px) {
-    #container{
+    #dashboardContainer{
         padding: 3%;
     }
-    #left{
+    #dashboardLeft{
         display: none;
     }
-    #right{
+    #dashboardRight{
         margin: auto;
     }
 }

@@ -7,11 +7,15 @@
     max-width: 99%;
     height: 300px;
     margin: auto;
-    /* maxWidth: "90%",
-    // height:"200px",
-    border:"1px solid red",
-    margin:"auto" */
-    /* border: 1px solid black; */
+    margin-bottom: 10px;
+}
+#chartHeading{
+    /* width: 30%; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    align-items: center;
+    /* border: 1px solid red; */
 }
 @media all and (max-width: 450px) {
     #mainGraphContainer{

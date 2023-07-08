@@ -22,17 +22,17 @@ const Dashboard = () => {
     //     return <button onClick={()=>signOut("google")} >Logout</button>
     // }
   return (
-    <div id="container">
-      <div id="left">
-        <Sidebar/>
+      <div id="dashboardContainer">
+        <div id="dashboardLeft">
+          <Sidebar/>
+        </div>
+        <div id="dashboardRight">
+          <Navbar/>
+          <Card/>
+          <BarChart/>
+          <BottomCards/>
+        </div>
       </div>
-      <div id="right">
-        <Navbar/>
-        <Card/>
-        <BarChart/>
-        <BottomCards/>
-      </div>
-    </div>
   );
 };
 
