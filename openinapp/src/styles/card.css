@@ -43,3 +43,8 @@
   right: 15px;
   cursor: pointer;
 }
+@media all and (max-width: 450px) {
+    #card-div{
+    margin-top: 20px;    
+    }
+}

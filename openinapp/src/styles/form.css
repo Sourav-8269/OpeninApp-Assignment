@@ -65,7 +65,7 @@
 @media all and (max-width: 450px) { 
   #main-div{
     width: 90%;
-    margin-top: 15%;
+    /* margin-top: 15%; */
     margin-bottom: 5%;
   }
   #login-buttons{
