@@ -7,4 +7,7 @@ module.exports = {
       // your project has ESLint errors.
       ignoreDuringBuilds: true,
     },
+    images: {
+      domains: ['lh3.googleusercontent.com'],
+    }
   }

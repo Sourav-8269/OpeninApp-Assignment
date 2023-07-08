@@ -1,6 +1,10 @@
 import React from 'react'
 import "./../../styles/sidebar.css"
-import dashboard from "./../../../public/dashboard.png"
+import dashboard from "./../../../public/dashboard.png";
+import transactionIcon from "./../../../public/transaction_icon.png";
+import settingsIcon from "./../../../public/setting_icon.png";
+import userIcon from "./../../../public/user_icon.png";
+import scheduleIcon from "./../../../public/schedule_icon.png"
 import Image from 'next/image'
 const Sidebar = () => {
   return (
@@ -8,24 +12,24 @@ const Sidebar = () => {
         <h1 id="sidebar-heading">Board.</h1>
         <div id="menu">
             <div className="menu-item">
-                <Image src={dashboard} width={24} height={24} alt="Dashboard" srcset=""/>
+                <Image src={dashboard} width={20} height={20} alt="Dashboard" srcset=""/>
                 <p>Dashboard</p>
             </div>
             <div className="menu-item">
-                <Image src={dashboard} width={24} height={24} alt="Dashboard" srcset=""/>
-                <p>Dashboard</p>
+                <Image src={transactionIcon} width={20} height={23} alt="Dashboard" srcset=""/>
+                <p>Transactions</p>
             </div>
             <div className="menu-item">
-                <Image src={dashboard} width={24} height={24} alt="Dashboard" srcset=""/>
-                <p>Dashboard</p>
+                <Image src={scheduleIcon} width={20} height={20} alt="Dashboard" srcset=""/>
+                <p>Schedules</p>
             </div>
             <div className="menu-item">
-                <Image src={dashboard} width={24} height={24} alt="Dashboard" srcset=""/>
-                <p>Dashboard</p>
+                <Image src={userIcon} width={20} height={20} alt="Dashboard" srcset=""/>
+                <p>Users</p>
             </div>
             <div className="menu-item">
-                <Image src={dashboard} width={24} height={24} alt="Dashboard" srcset=""/>
-                <p>Dashboard</p>
+                <Image src={settingsIcon} width={19} height={20} alt="Dashboard" srcset=""/>
+                <p>Settings</p>
             </div>
         </div>
         <div id="footer">
